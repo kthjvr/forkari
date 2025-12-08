@@ -1709,7 +1709,7 @@ body::before {
 .modal-content {
     background: linear-gradient(135deg, #2a2438 0%, #3d3451 100%);
     border-radius: 28px;
-    padding: 40px;
+    padding: 24px;
     max-width: 500px;
     width: 90%;
     text-align: center;
@@ -1724,7 +1724,7 @@ body::before {
 
 .modal-header {
     font-family: "Playfair Display", serif;
-    font-size: 2rem;
+    font-size: 1rem;
     color: var(--genshin-gold);
     margin-bottom: 20px;
     text-shadow: 0 2px 20px rgba(216, 194, 123, 0.6);
@@ -1734,12 +1734,12 @@ body::before {
     background: rgba(255, 255, 255, 0.08);
     border: 2px solid var(--genshin-gold);
     border-radius: 20px;
-    padding: 30px;
+    padding: 24px;
     margin: 20px 0;
 }
 
 .moon-icon {
-    font-size: 4rem;
+    font-size: 3rem;
     display: block;
     margin-bottom: 15px;
     animation: moonGlow 2s ease-in-out infinite;
@@ -1752,14 +1752,14 @@ body::before {
 
 .secret-reward h3 {
     color: var(--sunflower);
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin-bottom: 15px;
     font-family: "Playfair Display", serif;
 }
 
 .secret-reward p {
     color: #d1c4e8;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.7;
     margin: 15px 0;
 }
@@ -1780,7 +1780,7 @@ body::before {
 .congrats {
     color: var(--genshin-gold);
     font-weight: 600;
-    font-size: 1.2rem !important;
+    font-size: 1rem !important;
     margin-top: 20px !important;
 }
 

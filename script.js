@@ -300,7 +300,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const bgMusic = document.getElementById('bgMusic');
     const openButton = document.getElementById('openButton');
     let musicStarted = false;
-    bgMusic.volume = 0.2;
+    bgMusic.volume = 0.5;
 
     // Start music when envelope is opened
     openButton.addEventListener('click', () => {
