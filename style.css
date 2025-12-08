@@ -1127,7 +1127,7 @@ body::before {
 .polaroid-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 40px;
+    gap: 50px;
     max-width: 0;
     margin: 0 auto 40px;
     padding: 0 20px;
@@ -1376,7 +1376,7 @@ body::before {
 @media (max-width: 768px) {
     .polaroid-gallery {
         grid-template-columns: 1fr;
-        gap: 50px;
+        gap: 70px;
         max-width: 320px;
     }
     
@@ -1523,8 +1523,8 @@ body::before {
 }
 
 @media (max-width: 768px) {
-  .hero-title {
-    font-size: 2.5rem;
+  .hero-title, .game-title, .reward-title, .polaroid-title, .cake-title {
+    font-size: 2rem;
   }
   .card-body {
     padding: 30px 25px;
@@ -1532,8 +1532,20 @@ body::before {
   .message-section {
     padding: 25px;
   }
+  .reward-box{
+    padding: 24px;
+  }
   .reward-panel {
-    padding: 35px 25px;
+    padding: 30px 16px;
+  }
+  .reward-item {
+    flex-direction: column;
+  }
+  .reward-description {
+    font-size: 1rem;
+  }
+  .reward-type{
+    font-size: 1.08rem;
   }
   .game-board {
     grid-template-columns: repeat(4, 1fr);
