@@ -192,6 +192,12 @@ function revealReward() {
     rewardSection.style.display = 'block';
     rewardSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
+    for (let i = 0; i < 50; i++) {
+        setTimeout(() => {
+            createConfetti();
+        }, i * 30);
+    }
+
     // Show message3 after reward
     setTimeout(() => {
         message3.style.display = 'block';
@@ -237,6 +243,8 @@ function initPolaroids() {
             // Exit current card
             currentCard.classList.remove('active');
             currentCard.classList.add('exiting');
+
+            playSound('cardFlipSound', 0.3);
 
             // Enter next card
             setTimeout(() => {
